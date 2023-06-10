@@ -1,0 +1,43 @@
+<!Doctype Html>
+<html>
+<head>
+    <title>Второй проэкт</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <meta charset="utf-8">
+    
+    </head>
+<body>
+<form action="#" method="post" enctype="multipart/form-data">
+    <p>Имя</p>
+    <input tabindex="1" type="text">
+    <p>Пароль</p>
+    <input tabindex="2" type="password">
+    <p>Телефон</p>
+    <input tabindex="3" type="tel">
+    <p>Пол</p>
+    <div><p><input tabindex="4" checked type="radio" name="gender" value="dark">Мужской</p></div>
+    <div><p><input tabindex="4" type="radio" value="lager" name="gender">Женский</p></div><br>
+    
+    <p name="property">Имущество</p>
+    <div>
+    <p><input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик</p>
+    <p><input tabindex="6" type="checkbox"name="car" value="yes">Машина</p>
+    <p><input tabindex="7" disabled type="checkbox"name="house" value="yes">Дом</p>
+    </div>
+    <p>Дополнительная информация</p>
+    <textarea tabindex="8" name="text"></textarea>
+    <p>Прикрепить фото</p>
+    <input tabindex="9" name="userfoto" type="file">
+    <p>Любимый цвет</p>
+    <select tabindex="10">
+    <option value="red">Красный</option>
+    <option value="blue">Синий</option>
+    <option value="yellow">Жёлтый</option>
+    </select>
+    <p>Действия</p>
+    <button tabindex="11" type="submit">Отправить</button>
+    <button tabindex="12" type="reset">Очистить</button>
+    
+    </form>
+</body>
+</html>

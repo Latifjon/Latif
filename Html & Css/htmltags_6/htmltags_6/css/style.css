@@ -1,0 +1,121 @@
+.box-1 {
+    word-spacing: inherit;
+    border: solid;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    width: 50%;
+    
+}
+.box-2 {
+    border: dashed red;
+    margin: 10px;
+    padding: 10px;
+    height: 10px;
+    
+    
+}
+.span-1 {
+    border: thick double #32a1ce;
+    margin: 7px;
+    padding: 5px;
+    width: 70px;
+    
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    line-height: inherit;
+    border: solid;
+    margin: 15px;
+    padding: 10px;
+}
+.box-3 {
+    margin: 10px;
+    padding: 10px;
+    border: dashed;
+    width: 50px;
+    
+}
+.box-4 {
+    margin: 10px;
+    padding: 10px;
+    border: dashed;
+    width: 50px;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+.span-2 {
+    margin: 10px;    
+    padding: 10px;
+    border: dashed;
+    text-decoration: underline;
+}
+
+.span-3 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed black;
+    
+}
+
+.box-style {
+    background-image: url(/htmltags_6/img/stylish-studio-panoramic-white-brick-background-with-peeling-paint-wooden-floor-vector.jpg);
+    background-position:center;
+    background-size:contain;
+    margin-top: 15px;
+}
+.box-style img {
+    margin-left: 800px;
+    
+}
+
+.button {
+    color: white;
+    background-color: greenyellow;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 800px;
+    border-radius: 10px;
+    
+}
+.pclass {
+    font-size: 40px;
+    font-family: serif;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+.pclass1 {
+    display: inline-block;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+.img1 {
+    width: 1%;
+    display: block;
+}
+.pclass2 {
+    display: block;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+.clr {
+    clear: both;
+    
+}
+.face {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #000;
+    
+}
+
+
+
+
+

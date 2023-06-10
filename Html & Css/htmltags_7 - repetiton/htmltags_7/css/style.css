@@ -1,0 +1,28 @@
+.example-block {
+    text-decoration: overline;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: lowercase;
+    line-height: 70px;
+    white-space: normal;
+    box-sizing: padding-box;
+    overflow: hidden;
+}
+
+.example-string {
+    font-size: 20px;
+    text-indent: normal;
+    letter-spacing: normal;
+     white-space: normal;
+    box-sizing: content-box;
+    overflow:visible
+    
+}
+.example-string1 {
+    white-space: normal;
+    font-size: 20px;
+    word-spacing: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    overflow: scroll;
+}
